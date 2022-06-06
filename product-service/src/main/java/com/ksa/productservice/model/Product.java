@@ -12,7 +12,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @Data
 @Table(name = "product")
-public class Product implements Serializable {
+public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

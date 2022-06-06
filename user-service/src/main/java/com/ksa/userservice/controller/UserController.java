@@ -1,10 +1,10 @@
-package com.ksa.userservice;
+package com.ksa.userservice.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class UserAPI {
+public class UserController {
 
     @GetMapping
     public String helloWorld(){
